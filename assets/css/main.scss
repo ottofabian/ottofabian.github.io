@@ -9,17 +9,15 @@ search: false
 @import "minimal-mistakes"; // main partials
 
 .masthead__menu {
-      font-family: 'Montserrat Alternates';
-    }
-
-.page__title 
-    {
-      font-family: 'Quicksand';
-    }
-
-.sidebar .author__name {
-    font-family: 'Quicksand';
+    font-family: 'Montserrat Alternates';
   }
+
+.page__title,
+.sidebar .author__name,
+.sidebar .author__name--home,
+.archive__item-title{
+    font-family: 'Quicksand';
+}
 
 .page__content{
     h1, h2, h3, h4, h5, h6
@@ -27,11 +25,6 @@ search: false
       font-family: 'Quicksand';
     }
 }
-
-.archive__item-title {
-  font-family: 'Quicksand';
-}
-
 
 .page__taxonomy-cat {
   display: inline-block;
@@ -44,6 +37,28 @@ search: false
 	text-align-last: none;
 }
 
-.page__hero-caption {
-  font-size: 0.5em;
+// .page__hero-caption {
+//   font-size: 0.5em;
+// }
+
+.page__hero--overlay .page__lead {
+  max-width: $x-large;
+}
+
+// .author__name {
+//   text-align: center;
+//   font-family: 'Quicksand';  
+// }
+
+.author__avatar--home {
+  @extend .author__avatar;
+
+  img {
+    display: block;
+    max-width: 225px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    
+  }
 }
