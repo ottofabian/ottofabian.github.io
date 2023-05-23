@@ -1,0 +1,135 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Fabian Otto
+email: Fabian.Otto@bosch.com
+description: >- # this means to ignore newlines until "baseurl:"
+  This is the personal website of the machine learning researcher Fabian Otto.
+twitter_username: ottofabianRL
+github_username: ottofabian
+minimal_mistakes_skin: air
+search: false
+
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+# Outputting
+permalink: /:categories/:title/
+paginate: 2 # amount of posts to show
+paginate_path: /page:num/
+timezone: Europe/Berlin # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+include:
+  - _pages
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+# Website logo
+logo: "/assets/images/logo-no-background.png"
+masthead_title: " "
+
+author:
+  name   : "Fabian Otto"
+  avatar : "/assets/images/Otto_Fabian_250x250.jpg"
+  bio    : "Creating superhuman reinforcement learning agents"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:fabian.otto@bosch.com"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/ottofabian/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://twitter.com/ottofabianRL"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ottofabian"
+    - label: "Google Scholar"
+      icon: "ai fa-fw ai-google-scholar"
+      url: "https://scholar.google.com/citations?user=dV8eLH8AAAAJ&hl=en"
+
+footer:
+  links:
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/ottofabian/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://twitter.com/ottofabianRL"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ottofabian"
+    - label: "Google Scholar"
+      icon: "ai fa-fw ai-google-scholar"
+      url: "https://scholar.google.com/citations?user=dV8eLH8AAAAJ&hl=en"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: false
+      related: false
+      show_date: false
+      header:
+        image: /assets/images/banner/banner4_cropped.jpg
+        og_image: /assets/images/banner/banner4_cropped.jpg
+        caption: '<a href="https://www.freepik.com/free-vector/digital-glowing-technology-lines-with-metwork-wire-mesh_10701724.htm#page=2&query=linkedin%20background%20technology&position=0&from_view=search&track=ais#position=0&page=2&query=linkedin%20background%20technology">Image by starline</a>'
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      header:
+        image: /assets/images/banner/banner4_cropped.jpg
+        og_image: /assets/images/banner/banner4_cropped.jpg
+        caption: '<a href="https://www.freepik.com/free-vector/digital-glowing-technology-lines-with-metwork-wire-mesh_10701724.htm#page=2&query=linkedin%20background%20technology&position=0&from_view=search&track=ais#position=0&page=2&query=linkedin%20background%20technology">Image by starline</a>'
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+atom_feed:
+  hide: true
