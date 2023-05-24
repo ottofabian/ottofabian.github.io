@@ -32,14 +32,14 @@
     </h2>
     {% include page__meta.html type=include.type %}
     {% if post.authors %}
-      <strong class="archive__item-excerpt" font-weight=bold itemprop="description">{{ post.authors | markdownify | strip_html }}</strong>
-      </br>
+      <strong class="archive__item-excerpt" itemprop="description">{{ post.authors | markdownify | strip_html }}</strong>
+      <br/>
     {% elsif post.excerpt %}
       <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>
     {% endif %}
     {% for category_word in post.conference %}
       <span class="page__taxonomy-cat p-category" rel="tag">{{ category_word }}</span>
-      </br>
+      <br/>
     {% endfor %}
   </article>
 </div>

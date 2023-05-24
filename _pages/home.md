@@ -3,17 +3,9 @@ layout: single
 classes: wide
 permalink: /
 hidden: true 
-excerpt:  ""
-tagline: "<br/><br/>"
-title: " "
+title: "About Me"
 author_profile: True
-header:
-#     image: /assets/images/banner/banner4_cropped.jpg
-#     overlay_image: 
-    # overlay_filter: 0
 ---
-
-# About Me
 
 I am currently a PhD student at the [Bosch Center for AI](https://www.bosch-ai.com/) and member of the [Industry-on-Campus](https://uni-tuebingen.de/en/excellence-strategy/research/industry-on-campus/) collaboration at the [University of Tübingen](https://tuebingen.ai/). 
 I am supervised by Gerhard Neumann from the [Autonomous Learning Robots Lab](https://alr.anthropomatik.kit.edu/) at [Karlsruhe Institute of Technology](https://www.kit.edu/english/). 
