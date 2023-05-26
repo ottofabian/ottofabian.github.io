@@ -25,7 +25,7 @@ search: false
 # domain: "ottofabian.github.io"
 url: "https://ottofabian.github.io"
 # baseurl: "/ottofabian.github.io/"
-# repository: "ottofabian/ottofabian.github.io"
+repository: "ottofabian/ottofabian.github.io"
 
 # Build settings
 markdown: kramdown
@@ -145,8 +145,8 @@ atom_feed:
   hide: true
 
 analytics:
-provider: "google-gtag"
-google:
-  tracking_id: "G-73KW2Z1TGV"
-  anonymize_ip: false # default
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-73KW2Z1TGV"
+    anonymize_ip: false # default
 
