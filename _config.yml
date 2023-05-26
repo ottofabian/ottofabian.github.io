@@ -22,8 +22,10 @@ github_username: ottofabian
 minimal_mistakes_skin: air
 search: false
 
+domain: "ottofabian.github.io"
 url: "https://ottofabian.github.io"
-baseurl: "/"
+baseurl: "/ottofabian.github.io/"
+repository: "ottofabian/ottofabian.github.io"
 
 # Build settings
 markdown: kramdown
