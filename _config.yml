@@ -22,6 +22,9 @@ github_username: ottofabian
 minimal_mistakes_skin: air
 search: false
 
+url: "https://ottofabian.github.io"
+baseurl: "/"
+
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
@@ -138,3 +141,10 @@ tag_archive:
 
 atom_feed:
   hide: true
+
+analytics:
+provider: "google-gtag"
+google:
+  tracking_id: "G-73KW2Z1TGV"
+  anonymize_ip: false # default
+
