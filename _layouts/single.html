@@ -53,6 +53,7 @@ layout: default
         <div>
           {% if page.link %}<span><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Full Paper" }}</a></span>{% endif %}
           {% if page.code %}<span><a href="{{ page.code }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_code_label | default: "Code" }}</a></span>{% endif %}
+          {% if page.website %}<span><a href="{{ page.website }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_website_label | default: "Website" }}</a></span>{% endif %}
           {% if page.bibtex %}<span><a href="{{ page.bibtex }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_cite_label | default: "Cite" }}</a></span>{% endif %}
         </div>
       </section>
