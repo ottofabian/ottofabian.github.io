@@ -67,7 +67,7 @@ masthead_title: " "
 author:
   name   : "Fabian Otto"
   avatar : "/assets/images/Otto_Fabian_250x250.jpg"
-  bio    : "Dedicated to creating superhuman RL agents"
+  bio    : "Dedicated to creating intelligent machine leaning agents"
   # bio    : "PhD Student in Reinforcement Learning"
   links:
     - label: "Email"
