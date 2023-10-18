@@ -68,7 +68,6 @@ author:
   name   : "Fabian Otto"
   avatar : "/assets/images/Otto_Fabian_250x250.jpg"
   bio    : "Dedicated to creating intelligent machine leaning agents"
-  # bio    : "PhD Student in Reinforcement Learning"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
@@ -116,7 +115,6 @@ defaults:
       show_date: false
       header:
         overlay_image: /assets/images/banner/banner4_cropped.jpg
-        og_image: /assets/images/banner/main-paper-banner.jpg
         show_overlay_excerpt: false
         overlay_filter: 0.25
         # caption: '<a href="https://www.freepik.com/free-vector/digital-glowing-technology-lines-with-metwork-wire-mesh_10701724.htm#page=2&query=linkedin%20background%20technology&position=0&from_view=search&track=ais#position=0&page=2&query=linkedin%20background%20technology">Image by starline</a>'
@@ -130,7 +128,6 @@ defaults:
       classes: wide
       header:
         overlay_image: /assets/images/banner/banner4_cropped.jpg
-        og_image: /assets/images/banner/main-page-banner.jpg
         overlay_filter: 0.25
         # caption: '<a href="https://www.freepik.com/free-vector/digital-glowing-technology-lines-with-metwork-wire-mesh_10701724.htm#page=2&query=linkedin%20background%20technology&position=0&from_view=search&track=ais#position=0&page=2&query=linkedin%20background%20technology">Image by starline</a>'
 
