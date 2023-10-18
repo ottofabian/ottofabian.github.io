@@ -14,13 +14,19 @@ I received my BSc in software engineering from [DHBW Mannheim]() and my MSc in c
 
 # Research
 
-My passion for reinforcement learning began when I first saw an agent effortlessly master a simple cartpole task. 
-Although the task is not inherently challenging, I was captivated by the seemingly flawless and precise behavior of the agent, which compelled me to take a deeper dive into reinforcement learning.
-I was motivated to explore the potential of reinforcement learning and find ways to improve these agents to potentially achieve "superhuman" behavior that could perform even more challenging tasks and ultimately make our lives easier.
-While there is still a long way to go, I am excited to be a part of this journey.
+Ever since I first saw an agent effortlessly master a simple cartpole task, I have been fascinated by what reinforcement learning, and machine learning in general, are capable of. 
+Although the task itself is not inherently challenging, it sparked my initial curiosity and set me on a research path that has been both exciting and rewarding.
+Throughout my academic journey, I have encountered and conquered numerous challenges related to researching, applying, and implementing reinforcement learning methods. 
+While the end result continues to fascinate me to this day, I have come to appreciate the challenges of the journey itself. 
+My ultimate goal is to explore the full potential of reinforcement learning and machine learning in general, and to find ways to empower agents to achieve "intelligent" performance.
+I firmly believe that this future depends on the ability to tackle complex real-world challenges.
+This journey also provides the opportunity to meet and learn from experts in different fields, facilitating interdisciplinary collaboration and knowledge sharing, as well as allowing the exploration of novel ideas, applications, and challenges.
 
-Specifically, my research focuses on deep reinforcement learning and algorithm development, with an emphasis on addressing key challenges such as sample complexity, learning stability, representation learning, as well as safe and efficient exploration. 
-Through my work, I aim to improve the capabilities and efficiency of reinforcement learning systems, advance our understanding of deep reinforcement learning algorithms, and develop innovative solutions to challenges influenced by real-world robotics applications and other complex problems in various domains.
+My research specifically focuses on deep reinforcement learning and algorithm development, with an emphasis on addressing critical challenges such as sample complexity, learning stability, representation learning, and safe and efficient exploration. 
+Through my work, I strive to improve the capabilities and efficiency of reinforcement learning systems, advance our understanding of deep reinforcement learning algorithms, and create innovative solutions to challenges influenced by real-world applications and complex problems in various domains.
+
+While there is still a long way to go, I am excited to be a part of this ongoing journey.
+
 
 <!-- Recent Posts -->
 <!-- {% include feature_row %} -->
