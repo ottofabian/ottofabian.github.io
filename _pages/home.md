@@ -28,5 +28,5 @@ Through my work, I strive to improve the capabilities and efficiency of reinforc
 While there is still a long way to go, I am excited to be a part of this ongoing journey.
 
 
-<!-- Recent Posts -->
+<!-- Recent Publications -->
 <!-- {% include feature_row %} -->

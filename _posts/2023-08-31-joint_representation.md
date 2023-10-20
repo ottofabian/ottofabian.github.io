@@ -1,10 +1,9 @@
 ---
 title: "Reinforcement Learning from Multiple Sensors via Joint Representations"
-# excerpt: "Philipp Becker, Sebastian Markgraf, Fabian Otto, Gerhard Neumann"
 authors: "Philipp Becker, Sebastian Markgraf, Fabian Otto, Gerhard Neumann"
 conference: arXiv preprint
 categories:
-  - arXiv preprint
+  - arXiv
 tags: 
   - Representation Learning
 link: https://arxiv.org/abs/2302.05342
