@@ -1,14 +1,16 @@
 ---
 title: "Open the Black Box: Step-based Policy Updates for Temporally-Correlated Episodic Reinforcement Learning"
 authors: "Ge Li, Hongyi Zhou, Dominik Roth, Serges Thilges, Fabian Otto, Rudolf Lioutikov, Gerhard Neumann"
-conference: Under Submission
+conference: 
+    - International Conference for Learning Representations (ICLR)
 categories:
-  - Unpublished
+  - ICLR
 tags: 
   - Trust Regions
   - Movement Primitives
-# link:
-# bibtex: /assets/data/cite/otto2023open.bib
+link: https://arxiv.org/abs/2401.11437
+bibtex: /assets/data/cite/li2024open.bib
+code: https://github.com/BruceGeLi/TCE_RL
 ---
 
 # Abstract
