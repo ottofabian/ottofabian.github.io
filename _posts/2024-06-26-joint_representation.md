@@ -1,5 +1,5 @@
 ---
-title: "Reinforcement Learning from Multiple Sensors via Joint Representations"
+title: "Combining Reconstruction and Contrastive Methods for Multimodal Representations in RL"
 authors: "Philipp Becker, Sebastian Mossburger, Fabian Otto, Gerhard Neumann"
 conference: 
     - Reinforcement Learning Conference (RLC)
