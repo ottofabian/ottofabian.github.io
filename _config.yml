@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Fabian Otto
-email: t-fabianotto@microsoft.com
+email: fabian.otto@microsoft.com
 description: >- # this means to ignore newlines until "baseurl:"
   This is the personal website of the machine learning researcher Fabian Otto.
 twitter_username: ottofabianRL
@@ -71,7 +71,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:fabian.otto@uni-tuebingen.de"
+      url: "mailto:fabian.otto@microsoft.com"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/ottofabian/"
@@ -98,7 +98,7 @@ footer:
       url: "https://github.com/ottofabian"
     - label: "Google Scholar"
       icon: "ai fa-fw ai-google-scholar"
-      url: "https://scholar.google.com/citations?user=dV8eLH8AAAAJ&hl=en"
+      url: "https://scholar.google.com/citations?user=dV8eLH8AAAAJ"
 
 defaults:
   # _posts
