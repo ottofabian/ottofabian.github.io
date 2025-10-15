@@ -1,0 +1,18 @@
+---
+title: "TROLL: Trust Regions improve Reinforcement Learning for Large Language Models"
+authors: Philipp Becker, Niklas Freymuth, Serge Thilges, Fabian Otto, Gerhard Neumann
+conference:
+  - ArXiv
+categories:
+  - ArXiv
+tags:
+  - Large Language Models
+  - Model-free Reinforcement Learning
+link: https://arxiv.org/abs/2510.03817
+bibtex: /assets/data/cite/becker2025troll.bib
+website: https://niklasfreymuth.github.io/troll/
+---
+
+# Abstract
+
+On-policy Reinforcement Learning (RL) with PPO-like clip objectives has become the standard choice for reward-based fine-tuning of large language models (LLMs). Although recent work has explored improved estimators of advantages and normalization, the clipping mechanism itself has remained untouched. Originally introduced as a proxy for principled KL-based trust regions, clipping is a crude approximation that often causes unstable updates and suboptimal performance. We replace the clip objective with a novel discrete differentiable trust region projection, which provides principled token-level KL constraints. The projection operates on a sparse subset of the model's most important token logits to balance computational cost and projection effectiveness. Our approach, Trust Region Optimization for Large Language Models (TROLL), serves as a direct replacement for PPO-like clipping during training and does not alter the model's inference behavior. Across datasets, model families, and advantage-estimation methods, TROLL consistently outperforms PPO-like clipping in terms of training speed, stability, and final success rates.
