@@ -1,0 +1,6 @@
+@inproceedings{zhou2025beast,
+  title     = {BEAST: Efficient Tokenization of B-Splines Encoded Action Sequences for Imitation Learning},
+  author    = {Hongyi Zhou and Weiran Liao and Xi Huang and Yucheng Tang and Fabian Otto and Xiaogang Jia and Xinkai Jiang and Simon Hilber and Ge Li and Qian Wang and {\"O}mer Erdin{\c{c}} Ya{\u{g}}murlu and Nils Blank and Moritz Reuss and Rudolf Lioutikov},
+  booktitle = {Neural Information Processing Systems (NeurIPS)},
+  year      = {2025},
+}
